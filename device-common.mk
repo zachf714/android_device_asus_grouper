@@ -91,10 +91,6 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
-# F2FS Support
-PRODUCT_PACKAGES += \
-	mkfs.f2fs \
-	fsck.f2fs
 
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
